@@ -1,0 +1,134 @@
+@media all and (min-device-width: 40em) and (max-device-width: 62.5em), (min-width: 40em) and (max-width: 62.5em){
+    .nw{
+        width: 100%;
+    }
+.ms-header {
+    .ms-header-conteiner{
+        .ms-navigation {
+            text-align: right;
+            padding-right: 70px;
+            
+            ul{
+                width: 250px;
+                position: absolute;
+                right: 0px;
+                top: -220px;
+                transition: 0.3s;
+                z-index: 9999;
+                background-color: #333;
+                height: auto;
+                text-align: center;
+                margin: 0px;
+                li{
+                    width: 50%;
+                    margin-right: 0px;
+                    line-height: 36px;
+                    text-align: center;
+                    &:last-child{
+                        margin-bottom: 25px;
+                    }
+                    a{
+                        border-bottom: 1px solid #333;
+                        &:hover{
+                            border-bottom: 1px solid #fff;
+                        }
+                    }
+                }
+            }
+            .ms-nav-search {
+                display: block !important;
+                position: absolute;
+                top: 48px;
+                left: 20px;
+                background: url(../../images/png/filter.png) no-repeat center;
+                width: 32px;
+                height: 24px;
+                border: 0px;
+                cursor: pointer;
+                outline: none;
+            }
+           
+            .ms-nav-social {
+                display: none;
+            }
+            .ms-nav-menu{
+                display: block !important;
+                position: absolute;
+                top: 48px;
+                right: 20px;
+                background: url(../../images/png/header-menu.png) no-repeat center;
+                width: 32px;
+                height: 24px;
+                border: 0px;
+                cursor: pointer;
+                outline: none;
+            }
+        }
+        &.show{ 
+            z-index: 99999;
+            position: relative;
+            .ms-navigation.nw {
+                ul{
+                    top: 120px;
+                } 
+            } 
+            
+        }
+    }
+    .ms-search-conteiner{
+        width: 350px;
+        position: absolute;
+        left: -105%;
+        top: 120px;
+        transition: 0.3s;
+        z-index: 9999;
+        background-color: #333;
+        form{
+            padding: 20px 20px;
+            .search-filter {
+                display: block;
+                .s-filter{
+                    &.type, &.year, &.conditional{
+                        select{
+                            width: 220px;  
+                        }
+                    }
+                    &.location{
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+        .s-filter{
+            display: block!important;
+        }
+        .searchbut{
+            display: block!important;
+            margin-left: 100px;
+        }
+        &.show{
+            .ms-search{
+                &.nw {
+                  width: 350px;  
+                }
+            }
+            left: 0px;
+        }
+    }
+}
+.motoshop  {
+    padding: 0px 4%;
+    text-align: center;
+    .product-card{
+        margin-right: 0px;
+        width: 49%; 
+        max-width: 400px;
+        .pc-slider-ct {
+            .slick-next{
+                right: 10px; 
+            }
+        }
+    }
+}
+    
+}

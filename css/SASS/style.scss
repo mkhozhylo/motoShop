@@ -1,0 +1,34 @@
+//FONT
+@font-face {
+    font-family: 'GilRoy';
+    src: url('../../fonts/Gilroy-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GilRoy';
+    src: url('../../fonts/Gilroy-ExtraBold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$title_font: 18px;
+$text_font: 14px;
+
+$color_text_menu: #fff;
+
+@mixin background_image {
+    background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+//1400 >
+@import "main/main.scss";
+//1000 -- 1400
+@import "minipc/minipc.scss";
+//640 -- 1000
+@import "tablet/tablet.scss";
+//320 -- 640
+@import "mobile/mobile.scss";

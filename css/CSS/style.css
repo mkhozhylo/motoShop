@@ -8,392 +8,392 @@
   src: url("../../fonts/Gilroy-ExtraBold.otf");
   font-weight: bold;
   font-style: normal; }
-@media all and (min-device-width: 87.5em) and (max-device-width: 240em), (min-width: 87.5em) and (max-width: 240em) {
-  .ms-header-conteiner {
-    background-color: #0067ee;
-    height: 120px; }
-    .ms-header-conteiner .ms-navigation {
-      margin: 0px auto;
-      font-size: 14px;
-      font-family: 'GilRoy';
-      padding: 42px 0px; }
-      .ms-header-conteiner .ms-navigation ul {
-        margin: 0px 0px 0px 34%;
-        padding: 0px;
-        list-style: none;
+.ms-header-conteiner {
+  background-color: #0067ee;
+  height: 120px; }
+  .ms-header-conteiner .ms-navigation {
+    margin: 0px auto;
+    font-size: 14px;
+    font-family: 'GilRoy';
+    padding: 42px 0px; }
+    .ms-header-conteiner .ms-navigation ul {
+      margin: 0px 0px 0px 34%;
+      padding: 0px;
+      list-style: none;
+      display: inline-block;
+      height: 36px; }
+      .ms-header-conteiner .ms-navigation ul li {
         display: inline-block;
-        height: 36px; }
-        .ms-header-conteiner .ms-navigation ul li {
-          display: inline-block;
-          vertical-align: top;
-          margin-right: 43px;
-          line-height: 36px; }
-          .ms-header-conteiner .ms-navigation ul li a {
-            text-decoration: none;
-            text-transform: uppercase;
-            color: #fff;
-            cursor: pointer;
-            border-bottom: 1px solid #0067ee;
-            letter-spacing: 2px; }
-            .ms-header-conteiner .ms-navigation ul li a:hover {
-              border-bottom: 1px solid #fff; }
-        .ms-header-conteiner .ms-navigation ul .singup {
-          width: 100px;
-          margin-right: 0px;
-          border: 1px solid #fff;
-          border-radius: 20px;
-          text-align: center; }
-          .ms-header-conteiner .ms-navigation ul .singup a:hover {
-            border-bottom: initial; }
-      .ms-header-conteiner .ms-navigation .ms-nav-tel {
-        display: inline-block;
-        font-size: 18px;
-        height: 26px;
         vertical-align: top;
-        margin-top: 3px;
-        color: #fff;
-        border-bottom: 1px solid #fff;
-        margin-left: 28px;
-        letter-spacing: 3px; }
-      .ms-header-conteiner .ms-navigation .ms-nav-social {
-        margin-left: 20px;
+        margin-right: 43px;
+        line-height: 36px; }
+        .ms-header-conteiner .ms-navigation ul li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          cursor: pointer;
+          border-bottom: 1px solid #0067ee;
+          letter-spacing: 2px; }
+          .ms-header-conteiner .ms-navigation ul li a:hover {
+            border-bottom: 1px solid #fff; }
+      .ms-header-conteiner .ms-navigation ul .singup {
+        width: 100px;
+        margin-right: 0px;
+        border: 1px solid #fff;
+        border-radius: 20px;
+        text-align: center; }
+        .ms-header-conteiner .ms-navigation ul .singup a:hover {
+          border-bottom: initial; }
+    .ms-header-conteiner .ms-navigation .ms-nav-tel {
+      display: inline-block;
+      font-size: 18px;
+      height: 26px;
+      vertical-align: top;
+      margin-top: 3px;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      margin-left: 28px;
+      letter-spacing: 3px; }
+    .ms-header-conteiner .ms-navigation .ms-nav-social {
+      margin-left: 20px;
+      display: inline-block;
+      vertical-align: top; }
+      .ms-header-conteiner .ms-navigation .ms-nav-social a {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 34px;
+        height: 34px;
         display: inline-block;
-        vertical-align: top; }
-        .ms-header-conteiner .ms-navigation .ms-nav-social a {
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          width: 34px;
-          height: 34px;
-          display: inline-block;
-          vertical-align: top;
-          margin-left: 6px; }
-          .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.f {
-            background-image: url(../../images/png/f.png); }
-          .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.t {
-            background-image: url(../../images/png/t.png); }
-          .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.g {
-            background-image: url(../../images/png/g.png); }
-          .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.l {
-            background-image: url(../../images/png/l.png); }
-      .ms-header-conteiner .ms-navigation .ms-nav-search, .ms-header-conteiner .ms-navigation .ms-nav-menu {
-        display: none; }
+        vertical-align: top;
+        margin-left: 6px; }
+        .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.f {
+          background-image: url(../../images/png/f.png); }
+        .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.t {
+          background-image: url(../../images/png/t.png); }
+        .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.g {
+          background-image: url(../../images/png/g.png); }
+        .ms-header-conteiner .ms-navigation .ms-nav-social a.social-item.l {
+          background-image: url(../../images/png/l.png); }
+    .ms-header-conteiner .ms-navigation .ms-nav-search, .ms-header-conteiner .ms-navigation .ms-nav-menu {
+      display: none; }
 
-  .ms-search-conteiner {
-    background-color: #0a0c0f;
-    font-family: 'GilRoy'; }
-    .ms-search-conteiner form {
-      padding: 34px 0px; }
-      .ms-search-conteiner form .search-filter {
-        display: inline-block; }
-        .ms-search-conteiner form .search-filter .s-filter {
-          display: inline-block;
-          vertical-align: top;
-          margin-top: 20px;
-          font-size: 14px; }
-          .ms-search-conteiner form .search-filter .s-filter small {
-            display: block;
-            color: #999999; }
-          .ms-search-conteiner form .search-filter .s-filter select {
-            border: none;
-            border-bottom: 1px solid #fff;
-            background-color: inherit;
-            color: #fff;
-            padding-left: 5px;
-            outline: none;
-            cursor: pointer; }
-            .ms-search-conteiner form .search-filter .s-filter select option {
-              color: #333; }
-          .ms-search-conteiner form .search-filter .s-filter.location {
-            margin-top: 16px; }
-            .ms-search-conteiner form .search-filter .s-filter.location p {
-              border-bottom: 1px solid #fff;
-              color: #fff;
-              display: inline-block;
-              padding-right: 50px;
-              font-size: 16px;
-              width: 200px;
-              font-family: 'GilRoy'; }
-            .ms-search-conteiner form .search-filter .s-filter.location span {
-              background-position: center;
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-image: url(../../images/png/ic_my_location_black_24dp_2x.png);
-              width: 24px;
-              height: 20px;
-              display: inline-block;
-              vertical-align: top;
-              border-bottom: 1px solid #fff;
-              padding: 12px;
-              margin-left: -5px; }
-          .ms-search-conteiner form .search-filter .s-filter.conditional {
-            width: 140px;
-            margin-left: 20px; }
-            .ms-search-conteiner form .search-filter .s-filter.conditional .ig {
-              display: inline-block;
-              vertical-align: top;
-              position: relative;
-              padding: 1px 0px 0px 20px;
-              color: #fff; }
-              .ms-search-conteiner form .search-filter .s-filter.conditional .ig:last-child {
-                margin-left: 25px; }
-              .ms-search-conteiner form .search-filter .s-filter.conditional .ig .ic {
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                margin: 0px;
-                padding: 0px;
-                position: absolute;
-                width: 15px;
-                height: 15px;
-                -webkit-appearance: inherit;
-                background: url(../../images/png/Rectangle.png);
-                left: 0px;
-                top: 0px;
-                transition: 0.3s;
-                cursor: pointer; }
-                .ms-search-conteiner form .search-filter .s-filter.conditional .ig .ic:checked {
-                  background: url(../../images/png/Shape.png); }
-              .ms-search-conteiner form .search-filter .s-filter.conditional .ig label {
-                transition: 0.2s;
-                cursor: pointer; }
-          .ms-search-conteiner form .search-filter .s-filter.type small {
-            margin-left: 28px; }
-          .ms-search-conteiner form .search-filter .s-filter.type select {
-            width: 180px;
-            margin-left: 30px; }
-          .ms-search-conteiner form .search-filter .s-filter.make small {
-            margin-left: 28px; }
-          .ms-search-conteiner form .search-filter .s-filter.make select {
-            width: 220px;
-            margin-left: 30px; }
-          .ms-search-conteiner form .search-filter .s-filter.year small {
-            margin-left: 28px; }
-          .ms-search-conteiner form .search-filter .s-filter.year select {
-            width: 125px;
-            margin-left: 30px; }
-          .ms-search-conteiner form .search-filter .s-filter.price small {
-            margin-left: 28px; }
-          .ms-search-conteiner form .search-filter .s-filter.price select {
-            width: 220px;
-            margin-left: 30px; }
-      .ms-search-conteiner form .searchbut {
+.ms-search-conteiner {
+  background-color: #0a0c0f;
+  font-family: 'GilRoy'; }
+  .ms-search-conteiner form {
+    padding: 34px 0px; }
+    .ms-search-conteiner form .search-filter {
+      display: inline-block; }
+      .ms-search-conteiner form .search-filter .s-filter {
         display: inline-block;
         vertical-align: top;
         margin-top: 20px;
-        margin-left: 30px; }
-        .ms-search-conteiner form .searchbut input {
-          border: 0px;
-          outline: none;
-          background-color: #0066ee;
-          border-radius: 20px;
-          color: #fff;
-          padding: 10px 19px;
-          cursor: pointer; }
-
-  .motoshop {
-    padding-left: 4%;
-    margin: 65px auto; }
-    .motoshop .product-card {
-      margin-right: 25px;
-      margin-top: 24px;
-      width: 400px;
-      display: inline-block;
-      text-align: center;
-      transition: 0.3s; }
-      .motoshop .product-card:hover {
-        box-shadow: 0px 10px 16px 0px rgba(97, 99, 101, 0.5);
-        transition: 0.3s; }
-      .motoshop .product-card .pc-slider-ct {
-        overflow: hidden;
-        width: 100%;
-        position: relative; }
-        .motoshop .product-card .pc-slider-ct .pc-slider-pic {
-          display: inline-block;
-          vertical-align: top; }
-        .motoshop .product-card .pc-slider-ct .slick-arrow {
-          width: 13px;
-          height: 21px;
-          font-size: 0px;
-          background-position: center !important;
-          background-repeat: no-repeat !important;
-          position: absolute;
-          bottom: 45%;
-          cursor: pointer;
-          transition: 0.3s;
-          border: none;
-          z-index: 999;
-          outline: none; }
-        .motoshop .product-card .pc-slider-ct .slick-next {
-          background: url(../../images/png/slider-arrow-right-hover.png);
-          right: 10px; }
-        .motoshop .product-card .pc-slider-ct .slick-prev {
-          background: url(../../images/png/slider-arrow-left-hover.png);
-          left: 10px; }
-      .motoshop .product-card .pc-text-ct {
-        padding: 0px 10px 10px 10px;
-        color: #666666; }
-        .motoshop .product-card .pc-text-ct h3 {
-          width: 75%;
-          max-height: 75px;
-          overflow: hidden;
-          font-weight: 700;
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 0px;
-          margin-bottom: 10px;
-          line-height: 25px;
-          text-transform: uppercase;
-          font-family: 'GilRoy'; }
-        .motoshop .product-card .pc-text-ct p {
-          line-height: 25px; }
-          .motoshop .product-card .pc-text-ct p span {
-            color: gray;
-            font-weight: 400; }
-      .motoshop .product-card a {
-        position: relative;
-        width: 190px;
-        border-radius: 50px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: gray;
-        font-weight: bold;
-        display: block;
-        padding: 10px 20px;
-        border: 1px solid gray;
-        margin: 0px auto 10px auto;
-        transition: 0.3s; }
-        .motoshop .product-card a span {
-          width: 10px;
-          height: 14px;
-          position: absolute;
-          bottom: 16px;
-          right: 16px;
+        font-size: 14px; }
+        .ms-search-conteiner form .search-filter .s-filter small {
           display: block;
-          background-position: center !important;
-          background-repeat: no-repeat !important;
-          background: url(../../images/png/VIEW.png); }
-        .motoshop .product-card a:hover {
-          background-color: #4d4d4d;
-          transition: 0.3s;
-          color: #fff; }
-          .motoshop .product-card a:hover span {
-            background: url(../../images/png/OFFER.png); }
-
-  .ms-pagination-conteiner {
-    background-color: #0067ee; }
-    .ms-pagination-conteiner .ms-pag {
-      text-align: center; }
-      .ms-pagination-conteiner .ms-pag ul {
-        padding: 0px;
-        margin: 0px;
-        list-style: none;
-        font-family: 'GilRoy';
-        font-weight: 600; }
-        .ms-pagination-conteiner .ms-pag ul li {
-          padding: 0px;
-          margin: 0px;
-          display: inline-block;
-          vertical-align: top; }
-          .ms-pagination-conteiner .ms-pag ul li a {
-            text-decoration: none; }
-            .ms-pagination-conteiner .ms-pag ul li a:hover {
-              background-color: #fff;
-              color: #000; }
-          .ms-pagination-conteiner .ms-pag ul li > span {
-            vertical-align: top;
-            line-height: 65px;
+          color: #999999; }
+        .ms-search-conteiner form .search-filter .s-filter select {
+          border: none;
+          border-bottom: 1px solid #fff;
+          background-color: inherit;
+          color: #fff;
+          padding-left: 5px;
+          outline: none;
+          cursor: pointer; }
+          .ms-search-conteiner form .search-filter .s-filter select option {
+            color: #333; }
+        .ms-search-conteiner form .search-filter .s-filter.location {
+          margin-top: 16px; }
+          .ms-search-conteiner form .search-filter .s-filter.location p {
+            border-bottom: 1px solid #fff;
             color: #fff;
-            margin: 0px 10px; }
-          .ms-pagination-conteiner .ms-pag ul li:last-child > .ms-pag-item {
-            padding: 8px 11px; }
-      .ms-pagination-conteiner .ms-pag .ms-pag-item {
-        border: 2px solid #fff;
-        border-radius: 500px;
-        width: 16px;
-        height: 16px;
-        padding: 8px 13px;
-        color: #fff;
-        line-height: 65px; }
-
-  .ms-footer-conteiner {
-    background-color: #4d4d4d;
-    height: 450px; }
-    .ms-footer-conteiner .ms-foot-item {
+            display: inline-block;
+            padding-right: 50px;
+            font-size: 16px;
+            width: 200px;
+            font-family: 'GilRoy'; }
+          .ms-search-conteiner form .search-filter .s-filter.location span {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../images/png/ic_my_location_black_24dp_2x.png);
+            width: 24px;
+            height: 20px;
+            display: inline-block;
+            vertical-align: top;
+            border-bottom: 1px solid #fff;
+            padding: 12px;
+            margin-left: -5px; }
+        .ms-search-conteiner form .search-filter .s-filter.conditional {
+          width: 140px;
+          margin-left: 20px; }
+          .ms-search-conteiner form .search-filter .s-filter.conditional .ig {
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            padding: 1px 0px 0px 20px;
+            color: #fff; }
+            .ms-search-conteiner form .search-filter .s-filter.conditional .ig:last-child {
+              margin-left: 25px; }
+            .ms-search-conteiner form .search-filter .s-filter.conditional .ig .ic {
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              margin: 0px;
+              padding: 0px;
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              -webkit-appearance: inherit;
+              background: url(../../images/png/Rectangle.png);
+              left: 0px;
+              top: 0px;
+              transition: 0.3s;
+              cursor: pointer; }
+              .ms-search-conteiner form .search-filter .s-filter.conditional .ig .ic:checked {
+                background: url(../../images/png/Shape.png); }
+            .ms-search-conteiner form .search-filter .s-filter.conditional .ig label {
+              transition: 0.2s;
+              cursor: pointer; }
+        .ms-search-conteiner form .search-filter .s-filter.type small {
+          margin-left: 28px; }
+        .ms-search-conteiner form .search-filter .s-filter.type select {
+          width: 180px;
+          margin-left: 30px; }
+        .ms-search-conteiner form .search-filter .s-filter.make small {
+          margin-left: 28px; }
+        .ms-search-conteiner form .search-filter .s-filter.make select {
+          width: 220px;
+          margin-left: 30px; }
+        .ms-search-conteiner form .search-filter .s-filter.year small {
+          margin-left: 28px; }
+        .ms-search-conteiner form .search-filter .s-filter.year select {
+          width: 125px;
+          margin-left: 30px; }
+        .ms-search-conteiner form .search-filter .s-filter.price small {
+          margin-left: 28px; }
+        .ms-search-conteiner form .search-filter .s-filter.price select {
+          width: 220px;
+          margin-left: 30px; }
+    .ms-search-conteiner form .searchbut {
       display: inline-block;
       vertical-align: top;
-      font-family: 'GilRoy';
-      margin-left: 30%;
-      text-align: left;
-      color: #fff;
-      margin-top: 75px; }
-      .ms-footer-conteiner .ms-foot-item h3 {
-        font-weight: 600;
+      margin-top: 20px;
+      margin-left: 30px; }
+      .ms-search-conteiner form .searchbut input {
+        border: 0px;
+        outline: none;
+        background-color: #0066ee;
+        border-radius: 20px;
+        color: #fff;
+        padding: 10px 19px;
+        cursor: pointer; }
+
+.motoshop {
+  padding-left: 4%;
+  margin: 65px auto; }
+  .motoshop .product-card {
+    margin-right: 25px;
+    margin-top: 24px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s; }
+    .motoshop .product-card:hover {
+      box-shadow: 0px 10px 16px 0px rgba(97, 99, 101, 0.5);
+      transition: 0.3s; }
+    .motoshop .product-card .pc-slider-ct {
+      overflow: hidden;
+      width: 100%;
+      position: relative; }
+      .motoshop .product-card .pc-slider-ct .pc-slider-pic {
+        display: inline-block;
+        vertical-align: top; }
+      .motoshop .product-card .pc-slider-ct .slick-arrow {
+        width: 13px;
+        height: 21px;
+        font-size: 0px;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        position: absolute;
+        bottom: 45%;
+        cursor: pointer;
+        transition: 0.3s;
+        border: none;
+        z-index: 999;
+        outline: none; }
+      .motoshop .product-card .pc-slider-ct .slick-next {
+        background: url(../../images/png/slider-arrow-right-hover.png);
+        right: 10px; }
+      .motoshop .product-card .pc-slider-ct .slick-prev {
+        background: url(../../images/png/slider-arrow-left-hover.png);
+        left: 10px; }
+    .motoshop .product-card .pc-text-ct {
+      padding: 0px 10px 10px 10px;
+      color: #666666; }
+      .motoshop .product-card .pc-text-ct h3 {
+        width: 75%;
+        max-height: 75px;
+        overflow: hidden;
+        font-weight: 700;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0px;
-        text-transform: uppercase; }
-      .ms-footer-conteiner .ms-foot-item ul {
+        margin-bottom: 10px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-family: 'GilRoy'; }
+      .motoshop .product-card .pc-text-ct p {
+        line-height: 25px; }
+        .motoshop .product-card .pc-text-ct p span {
+          color: gray;
+          font-weight: 400; }
+    .motoshop .product-card a {
+      position: relative;
+      width: 190px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: gray;
+      font-weight: bold;
+      display: block;
+      padding: 10px 20px;
+      border: 1px solid gray;
+      margin: 0px auto 10px auto;
+      transition: 0.3s; }
+      .motoshop .product-card a span {
+        width: 10px;
+        height: 14px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        display: block;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background: url(../../images/png/VIEW.png); }
+      .motoshop .product-card a:hover {
+        background-color: #4d4d4d;
+        transition: 0.3s;
+        color: #fff; }
+        .motoshop .product-card a:hover span {
+          background: url(../../images/png/OFFER.png); }
+
+.ms-pagination-conteiner {
+  background-color: #0067ee; }
+  .ms-pagination-conteiner .ms-pag {
+    text-align: center; }
+    .ms-pagination-conteiner .ms-pag ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      font-family: 'GilRoy';
+      font-weight: 600; }
+      .ms-pagination-conteiner .ms-pag ul li {
         padding: 0px;
         margin: 0px;
-        list-style: none; }
-        .ms-footer-conteiner .ms-foot-item ul li {
-          padding: 0px;
-          margin: 0px;
-          line-height: 25px; }
-          .ms-footer-conteiner .ms-foot-item ul li a {
-            text-decoration: none;
-            color: #fff;
-            position: relative; }
-      .ms-footer-conteiner .ms-foot-item.right {
-        margin-left: 17%; }
-        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(1) a {
-          padding-left: 25px; }
-          .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(1) a span {
-            width: 10px;
-            height: 18px;
-            display: inline-block;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            background: url(../../images/png/f_w.png); }
-        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(2) a {
-          padding-left: 25px; }
-          .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(2) a span {
-            width: 20px;
-            height: 14px;
-            display: inline-block;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background: url(../../images/png/t_w.png); }
-        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(3) a {
-          padding-left: 25px; }
-          .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(3) a span {
-            width: 20px;
-            height: 12px;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            display: inline-block;
-            background-position: center;
-            background-repeat: no-repeat;
-            background: url(../../images/png/g_w.png); }
-        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(4) a {
-          padding-left: 25px; }
-          .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(4) a span {
-            width: 17px;
-            height: 17px;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            display: inline-block;
-            background-position: center;
-            background-repeat: no-repeat;
-            background: url(../../images/png/l_w.png); } }
+        display: inline-block;
+        vertical-align: top; }
+        .ms-pagination-conteiner .ms-pag ul li a {
+          text-decoration: none; }
+          .ms-pagination-conteiner .ms-pag ul li a:hover {
+            background-color: #fff;
+            color: #000; }
+        .ms-pagination-conteiner .ms-pag ul li > span {
+          vertical-align: top;
+          line-height: 65px;
+          color: #fff;
+          margin: 0px 10px; }
+        .ms-pagination-conteiner .ms-pag ul li:last-child > .ms-pag-item {
+          padding: 8px 11px; }
+    .ms-pagination-conteiner .ms-pag .ms-pag-item {
+      border: 2px solid #fff;
+      border-radius: 500px;
+      width: 16px;
+      height: 16px;
+      padding: 8px 13px;
+      color: #fff;
+      line-height: 65px; }
+
+.ms-footer-conteiner {
+  background-color: #4d4d4d;
+  height: 450px; }
+  .ms-footer-conteiner .ms-foot-item {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'GilRoy';
+    margin-left: 30%;
+    text-align: left;
+    color: #fff;
+    margin-top: 75px; }
+    .ms-footer-conteiner .ms-foot-item h3 {
+      font-weight: 600;
+      margin-top: 0px;
+      text-transform: uppercase; }
+    .ms-footer-conteiner .ms-foot-item ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none; }
+      .ms-footer-conteiner .ms-foot-item ul li {
+        padding: 0px;
+        margin: 0px;
+        line-height: 25px; }
+        .ms-footer-conteiner .ms-foot-item ul li a {
+          text-decoration: none;
+          color: #fff;
+          position: relative; }
+    .ms-footer-conteiner .ms-foot-item.right {
+      margin-left: 17%; }
+      .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(1) a {
+        padding-left: 25px; }
+        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(1) a span {
+          width: 10px;
+          height: 18px;
+          display: inline-block;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          background: url(../../images/png/f_w.png); }
+      .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(2) a {
+        padding-left: 25px; }
+        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(2) a span {
+          width: 20px;
+          height: 14px;
+          display: inline-block;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background: url(../../images/png/t_w.png); }
+      .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(3) a {
+        padding-left: 25px; }
+        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(3) a span {
+          width: 20px;
+          height: 12px;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          display: inline-block;
+          background-position: center;
+          background-repeat: no-repeat;
+          background: url(../../images/png/g_w.png); }
+      .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(4) a {
+        padding-left: 25px; }
+        .ms-footer-conteiner .ms-foot-item.right ul li:nth-child(4) a span {
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          display: inline-block;
+          background-position: center;
+          background-repeat: no-repeat;
+          background: url(../../images/png/l_w.png); }
+
 @media all and (min-device-width: 62.5em) and (max-device-width: 87.5em), (min-width: 62.5em) and (max-width: 87.5em) {
   .nw {
     width: 100%; }
